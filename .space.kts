@@ -7,7 +7,7 @@
 job("Hello World!") {
     container(displayName = "Say Hello", image = "hello-world")
 }
-job("Notification on developer branch update") {
+job("Notification on developer branch updte") {
     container() {
         kotlinScript { api ->
             val recipient = MessageRecipient.Channel(ChatChannel.FromName("devs"))
